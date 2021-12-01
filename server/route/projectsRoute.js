@@ -7,10 +7,5 @@ routerProjects.get('/projects', async function (req, res) {
 	res.json(projects);
 })
 
-// router.get('/:id')
-// router.post('/')
-// router.put('/:id')
-// router.delete('/:id')
-
 
 module.exports = routerProjects

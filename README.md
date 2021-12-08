@@ -11,13 +11,6 @@
 3. [Tecnologias Utilizadas](#-Tecnologias-Utilizadas)
    - [Para construção da API](#Para-construção-da-API)
    - [Para uso da API](#Para-uso-da-API)
-4. [Features e rotas](#-Features-e-Rotas)
-   - [Manipulando os registros de anjas](#Manipulando-os-registros-de-anjas)
-   - [Manipulando os registros de abençoadas](#Manipulando-os-registros-de-abençoadas)
-5. [Proposta Completa do Projeto](#-Proposta-Completa-do-Projeto)
-6. [Aprendizados](#-Aprendizados)
-7. [Agradecimentos](#-Agradecimentos)
-
 
 
 ## 💡 Principais Features da API

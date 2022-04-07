@@ -2,7 +2,7 @@
   "name": "compiladoras-projeto",
   "version": "1.0.0",
   "description": "Código fonte da Plataforma Compiladoras\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D (backend) da Plataforma Compiladoras.",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,3 +22,4 @@
     "pg-promise": "^10.11.1"
   }
 }
+

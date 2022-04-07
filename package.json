@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/marianavns/plataforma-back/issues"
   },
-  "homepage": "https://github.com/marianavns/plataforma-back#readme"
+  "homepage": "https://github.com/marianavns/plataforma-back#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "pg-promise": "^10.11.1"
+  }
 }

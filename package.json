@@ -1,0 +1,19 @@
+{
+  "name": "compiladoras-projeto",
+  "version": "1.0.0",
+  "description": "Código fonte da Plataforma Compiladoras\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D (backend) da Plataforma Compiladoras.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianavns/plataforma-back.git"
+  },
+  "author": "compiladorasdecafeina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianavns/plataforma-back/issues"
+  },
+  "homepage": "https://github.com/marianavns/plataforma-back#readme"
+}

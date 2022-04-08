@@ -4,7 +4,7 @@
   "description": "Código fonte da Plataforma Compiladoras (backend) da Plataforma Compiladoras.",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

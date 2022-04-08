@@ -1,10 +1,10 @@
 {
-  "name": "compiladoras-projeto",
+  "name": "plataforma-compiladoras",
   "version": "1.0.0",
   "description": "Código fonte da Plataforma Compiladoras (backend) da Plataforma Compiladoras.",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

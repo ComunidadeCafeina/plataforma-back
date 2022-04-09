@@ -18,7 +18,7 @@ app.use(routes);
 //error handling
 app.use((err, req, res, next) => {
     if (process.env.NODE_ENV === "production")
-      res.status(500).json({ error: "internal server error from index" });
+      res.status(500).json({ error: err });
     else return next(err);
   });
 

@@ -1,11 +1,10 @@
 const express = require('express')
 const routerProjects = express.Router()
-const projectsService = require('../service/projectsService');
 
-routerProjects.get('/projects', async function (req, res) {
-	const projects = await projectsService.getProjects();
-	res.json(projects);
-})
+// const projectsService = require('../service/projectsService');
+const ProjectController = require('../controllers/project.js')
+
+routerProjects.get('/projects', ProjectController.all)
 
 
 module.exports = routerProjects

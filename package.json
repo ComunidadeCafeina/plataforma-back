@@ -2,7 +2,7 @@
   "name": "plataforma-compiladoras",
   "version": "1.0.0",
   "description": "Código fonte da Plataforma Compiladoras (backend) da Plataforma Compiladoras.",
-  "main": "server/server.js",
+  "main": "server/index.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/marianavns/plataforma-back#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "nodemon": "^2.0.15",
-    "pg-promise": "^10.11.1"
+    "pg": "^8.7.3",
+    "pg-promise": "^10.11.1",
+    "sequelize": "^6.18.0"
   }
 }
-
-

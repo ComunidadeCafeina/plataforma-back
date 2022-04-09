@@ -1,5 +1,7 @@
 node_modules/
 server/infra/database.js
+logins-passwords-configvars
+/*.env
 
 
 

@@ -2,11 +2,10 @@ const { DataTypes } = require('sequelize');
 
 const sequelize = require('../sequelize');
 
-const SocialNetwork = sequelize.define('SocialNetwork', {
-    // Id: DataTypes.INTEGER,
-    texto: DataTypes.TEXT,
-    icon: DataTypes.TEXT,
-    link: DataTypes.TEXT
+const SocialNetwork = sequelize.define('SocialNetworkTESTE', {
+    text: DataTypes.STRING(50),
+    icon: DataTypes.STRING(50),
+    link: DataTypes.STRING(50)
 });
 
 // cria tabela se não existir

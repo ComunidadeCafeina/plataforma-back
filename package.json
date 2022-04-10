@@ -24,6 +24,7 @@
     "nodemon": "^2.0.15",
     "pg": "^8.7.3",
     "pg-promise": "^10.11.1",
-    "sequelize": "^6.18.0"
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1"
   }
 }

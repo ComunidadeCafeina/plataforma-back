@@ -3,12 +3,11 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../sequelize');
 
 const Project = sequelize.define('projectTESTE', {
-    // Id: DataTypes.INTEGER,
-    brandicon: DataTypes.TEXT,
-    title: DataTypes.TEXT,
-    description: DataTypes.TEXT,
+    brandicon: DataTypes.STRING(50),
+    title: DataTypes.STRING(50),
+    description: DataTypes.STRING(200),
     restrict: DataTypes.BOOLEAN,
-    link: DataTypes.TEXT
+    link: DataTypes.STRING(150)
 });
 
 // cria tabela se não existir

@@ -11,10 +11,10 @@ const Projects = {
   },
 
   create(req, res, next) {
-    const {  Id, brandicon, title, description, restrict, link } = req.body;
+    const {  brandicon, title, description, restrict, link } = req.body;
 
     Project.create({
-        Id, brandicon, title, description, restrict, link,
+        brandicon, title, description, restrict, link,
     })
       .then((result) => {
         res.status(201).json(result); //return with ID -> 201 (CREATED)

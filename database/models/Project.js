@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 
 const sequelize = require('../sequelize');
 
-const Project = sequelize.define('project', {
+const Project = sequelize.define('projectTESTE', {
     // Id: DataTypes.INTEGER,
     brandicon: DataTypes.TEXT,
     title: DataTypes.TEXT,

@@ -3,7 +3,7 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../sequelize');
 
 const SocialNetwork = sequelize.define('SocialNetwork', {
-    Id: DataTypes.INTEGER,
+    // Id: DataTypes.INTEGER,
     texto: DataTypes.TEXT,
     icon: DataTypes.TEXT,
     link: DataTypes.TEXT

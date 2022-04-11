@@ -10,10 +10,10 @@ const SocialNetworks = {
   },
 
   create(req, res, next) {
-    const {  Id, brandicon, title, description, restrict, link } = req.body;
+    const { text, icon, link } = req.body;
 
     SocialNetwork.create({
-        Id, brandicon, title, description, restrict, link,
+      text, icon, link
     })
       .then((result) => {
         res.status(201).json(result); //return with ID -> 201 (CREATED)

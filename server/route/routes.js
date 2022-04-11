@@ -7,6 +7,8 @@ const SocialNetworkController = require('../controllers/socialNetworkController.
 router.get('/projects', ProjectController.all)
 router.get('/social-networks', SocialNetworkController.all)
 
+router.post('/projects', ProjectController.create);
+
 
 
 module.exports = router

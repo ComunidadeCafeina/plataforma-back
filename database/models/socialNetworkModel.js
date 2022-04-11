@@ -17,18 +17,13 @@ const SocialNetwork = sequelize.define('socialNetwork', {
     link: {
         type: DataTypes.STRING(50),
         allowNull: false
-    },
-
-    teste: {
-        type: DataTypes.STRING(50),
-        allowNull: true
     }
 
 });
 
 // Cria tabela se não existir e, se existir, adequa ao modelo atualizado.
 const init = async () => {
-    await SocialNetwork.sync({ alter: true });
+    await SocialNetwork.sync({ force: true });
     console.log('A tabela socialNetwork foi criada ou alterada.')
 };
 

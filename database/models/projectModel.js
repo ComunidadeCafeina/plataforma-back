@@ -32,8 +32,8 @@ const Project = sequelize.define('project', {
 
 // Cria tabela se não existir e, se existir, adequa ao modelo atualizado.
 const init = async () => {
-    await Project.sync({ force: true });
-    console.log('A tabela project foi criada ou alterada.')
+    await Project.sync({ alter: true });
+    console.log('A tabela project foi criada no banco de dados.')
 };
 
 init();

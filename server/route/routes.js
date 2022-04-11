@@ -8,7 +8,7 @@ router.get('/projects', ProjectController.all)
 router.get('/social-networks', SocialNetworkController.all)
 
 router.post('/projects', ProjectController.create);
-
+router.post('/social-networks', ProjectController.create);
 
 
 module.exports = router

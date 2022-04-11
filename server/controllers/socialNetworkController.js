@@ -1,4 +1,4 @@
-const SocialNetwork = require("../../database/models/SocialNetwork");
+const SocialNetwork = require("../../database/models/socialNetworkModel");
 
 const SocialNetworks = {
   all(req, res, next) {

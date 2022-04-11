@@ -17,6 +17,11 @@ const SocialNetwork = sequelize.define('socialNetwork', {
     link: {
         type: DataTypes.STRING(50),
         allowNull: false
+    },
+
+    teste: {
+        type: DataTypes.STRING(50),
+        allowNull: true
     }
 
 });

@@ -4,7 +4,7 @@ const router = express.Router()
 const projectController = require('../controllers/projectController.js')
 const socialNetworkController = require('../controllers/socialNetworkController.js')
 
-router.get('/', function (req, res) {
+router.get('/home', function (req, res) {
     res.status(200).send({
       "title": "Plataforma Compiladoras - Ambiente DEV",
       "version": "1.0.0",

@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
 
-const ProjectController = require('../controllers/projectController.js')
-const SocialNetworkController = require('../controllers/socialNetworkController.js')
+const projectController = require('../controllers/projectController.js')
+const socialNetworkController = require('../controllers/socialNetworkController.js')
 
 router.get('/projects', projectController.all)
 router.get('/social-networks', socialNetworkController.all)

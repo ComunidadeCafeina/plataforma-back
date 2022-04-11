@@ -2,7 +2,7 @@
 const express = require('express')
 const routerHome = express.Router()
 
-routerHome.get('/home', function (req, res) {
+routerHome.get('/', function (req, res) {
     res.status(200).send({
       "title": "Plataforma Compiladoras - Ambiente DEV",
       "version": "1.0.0",

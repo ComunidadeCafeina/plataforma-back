@@ -1,4 +1,4 @@
-const Project = require("../../database/models/Project");
+const Project = require("../../database/models/projectModel");
 
 const Projects = {
   
